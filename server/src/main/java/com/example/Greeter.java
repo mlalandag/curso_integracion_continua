@@ -16,6 +16,7 @@ public class Greeter {
   * Metodo modificado
   **/
   public String greet(String someone) {
+    Long lalala = new Long("1234");
     if (true) {
       return String.format("Hello, %s!", someone);
     } else {
